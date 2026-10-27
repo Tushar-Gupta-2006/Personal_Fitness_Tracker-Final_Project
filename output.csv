@@ -1,0 +1,361 @@
+==============================================
+   PERSONAL FITNESS TRACKER DASHBOARD
+==============================================
+ 1. Log a new activity
+ 2. View all activities
+ 3. Fitness report (metrics)
+ 4. Filter activities
+ 5. Activity summary (group by type)
+ 6. Weekly trends
+ 7. Bar chart  - time per activity
+ 8. Line graph - calories over time
+ 9. Pie chart  - activity distribution
+10. Heatmap    - duration vs calories
+11. Show ALL charts
+12. Exit
+----------------------------------------------
+Enter your choice: 1
+
+--- Log New Activity ---
+Activity type (e.g. Running, Yoga, Cycling): Yoga
+Duration (minutes): 35
+Calories burned: 643
+Date YYYY-MM-DD (press Enter for today): 2026-10-27
+[SUCCESS] Logged Yoga | 35 min | 643 kcal
+
+==============================================
+   PERSONAL FITNESS TRACKER DASHBOARD
+==============================================
+ 1. Log a new activity
+ 2. View all activities
+ 3. Fitness report (metrics)
+ 4. Filter activities
+ 5. Activity summary (group by type)
+ 6. Weekly trends
+ 7. Bar chart  - time per activity
+ 8. Line graph - calories over time
+ 9. Pie chart  - activity distribution
+10. Heatmap    - duration vs calories
+11. Show ALL charts
+12. Exit
+----------------------------------------------
+Enter your choice: 2
+
+All activities:
+      Date Activity Type  Duration (Minutes)  Calories Burned  Calories per Minute
+2026-07-30          Yoga                55.0            214.0                 3.89
+2026-07-31      Swimming                60.0            603.0                10.05
+2026-08-02           Gym                52.0            327.0                 6.29
+2026-08-04          Yoga                53.0            180.0                 3.40
+2026-08-05       Running                42.0            389.0                 9.26
+2026-08-07       Running                51.0            531.0                10.41
+2026-08-11          Yoga                39.0            101.0                 2.59
+2026-08-12       Walking                54.0            269.0                 4.98
+2026-08-14           Gym                48.0            319.0                 6.65
+2026-08-15          Yoga                25.0             86.0                 3.44
+2026-08-16      Swimming                47.0            411.0                 8.74
+2026-08-19       Walking                62.0            317.0                 5.11
+2026-08-20           Gym                44.0            325.0                 7.39
+2026-08-21       Walking                30.0            105.0                 3.50
+2026-08-23          Yoga                48.0            195.0                 4.06
+2026-08-24      Swimming                43.0            325.0                 7.56
+2026-08-25          Yoga                47.0            162.0                 3.45
+2026-08-26       Running                51.0            588.0                11.53
+2026-08-27       Running                42.0            429.0                10.21
+2026-08-28          Yoga                37.0            108.0                 2.92
+2026-08-29           Gym                73.0            425.0                 5.82
+2026-08-30           Gym                44.0            265.0                 6.02
+2026-08-31       Running                42.0            510.0                12.14
+2026-09-01          Yoga                36.0            149.0                 4.14
+2026-09-02          Yoga                20.0             54.0                 2.70
+2026-09-04       Walking                28.0            126.0                 4.50
+2026-09-05          Yoga                48.0            163.0                 3.40
+2026-09-06       Cycling                48.0            418.0                 8.71
+2026-09-07           Gym                34.0            184.0                 5.41
+2026-09-10          Yoga                30.0            133.0                 4.43
+2026-09-13       Walking                33.0            122.0                 3.70
+2026-09-15       Walking                30.0            123.0                 4.10
+2026-09-16      Swimming                27.0            282.0                10.44
+2026-09-19       Cycling                68.0            581.0                 8.54
+2026-09-20      Swimming                23.0            199.0                 8.65
+2026-09-21       Cycling                60.0            459.0                 7.65
+2026-09-22       Walking                25.0            117.0                 4.68
+2026-09-23       Cycling                86.0            734.0                 8.53
+2026-09-24      Swimming                44.0            312.0                 7.09
+2026-09-26          Yoga                52.0            139.0                 2.67
+2026-09-27       Walking                45.0            242.0                 5.38
+2026-09-28      Swimming                39.0            315.0                 8.08
+2026-09-29      Swimming                41.0            359.0                 8.76
+2026-09-30          Yoga                53.0            227.0                 4.28
+2026-10-01       Cycling                63.0            433.0                 6.87
+2026-10-02       Running                31.0            361.0                11.65
+2026-10-05      Swimming                57.0            451.0                 7.91
+2026-10-06       Running                42.0            440.0                10.48
+2026-10-09       Cycling                88.0            662.0                 7.52
+2026-10-10           Gym                43.0            356.0                 8.28
+2026-10-11      Swimming                21.0            184.0                 8.76
+2026-10-17          Yoga                32.0            129.0                 4.03
+2026-10-18          Yoga                35.0             94.0                 2.69
+2026-10-20       Running                58.0            578.0                 9.97
+2026-10-21       Running                54.0            519.0                 9.61
+2026-10-22          Yoga                44.0            187.0                 4.25
+2026-10-23       Cycling                48.0            443.0                 9.23
+2026-10-25          Yoga                25.0             63.0                 2.52
+2026-10-26       Cycling                38.0            337.0                 8.87
+2026-10-27          Yoga                35.0            643.0                18.37
+
+==============================================
+   PERSONAL FITNESS TRACKER DASHBOARD
+==============================================
+ 1. Log a new activity
+ 2. View all activities
+ 3. Fitness report (metrics)
+ 4. Filter activities
+ 5. Activity summary (group by type)
+ 6. Weekly trends
+ 7. Bar chart  - time per activity
+ 8. Line graph - calories over time
+ 9. Pie chart  - activity distribution
+10. Heatmap    - duration vs calories
+11. Show ALL charts
+12. Exit
+----------------------------------------------
+Enter your choice: 3
+
+========================================================
+        PERSONAL FITNESS REPORT
+========================================================
+Period               : 2026-07-30 to 2026-10-27
+Total activities     : 60
+Active days          : 60
+Total calories burned: 18,502 kcal
+Total time spent     : 2,673 min (44.5 hrs)
+Average duration     : 44.5 min / session
+Average calories     : 308.4 kcal / session
+Daily avg calories   : 308.4 kcal / active day
+Avg calories per min : 6.77
+Best session         : 734 kcal
+Improvement          : 20.0% (improved, 2nd half vs 1st half)
+
+Activity frequency:
+  - Yoga        :  18 sessions (30.0%)
+  - Swimming    :  10 sessions (16.7%)
+  - Running     :   9 sessions (15.0%)
+  - Walking     :   8 sessions (13.3%)
+  - Cycling     :   8 sessions (13.3%)
+  - Gym         :   7 sessions (11.7%)
+========================================================
+
+==============================================
+   PERSONAL FITNESS TRACKER DASHBOARD
+==============================================
+ 1. Log a new activity
+ 2. View all activities
+ 3. Fitness report (metrics)
+ 4. Filter activities
+ 5. Activity summary (group by type)
+ 6. Weekly trends
+ 7. Bar chart  - time per activity
+ 8. Line graph - calories over time
+ 9. Pie chart  - activity distribution
+10. Heatmap    - duration vs calories
+11. Show ALL charts
+12. Exit
+----------------------------------------------
+Enter your choice: 4
+
+--- Filter Activities (press Enter to skip any field) ---
+Activity type: Running
+Start date (YYYY-MM-DD): 
+End date   (YYYY-MM-DD): 
+
+Found 9 matching record(s):
+      Date Activity Type  Duration (Minutes)  Calories Burned  Calories per Minute
+2026-08-05       Running                42.0            389.0                 9.26
+2026-08-07       Running                51.0            531.0                10.41
+2026-08-26       Running                51.0            588.0                11.53
+2026-08-27       Running                42.0            429.0                10.21
+2026-08-31       Running                42.0            510.0                12.14
+2026-10-02       Running                31.0            361.0                11.65
+2026-10-06       Running                42.0            440.0                10.48
+2026-10-20       Running                58.0            578.0                 9.97
+2026-10-21       Running                54.0            519.0                 9.61
+
+==============================================
+   PERSONAL FITNESS TRACKER DASHBOARD
+==============================================
+ 1. Log a new activity
+ 2. View all activities
+ 3. Fitness report (metrics)
+ 4. Filter activities
+ 5. Activity summary (group by type)
+ 6. Weekly trends
+ 7. Bar chart  - time per activity
+ 8. Line graph - calories over time
+ 9. Pie chart  - activity distribution
+10. Heatmap    - duration vs calories
+11. Show ALL charts
+12. Exit
+----------------------------------------------
+Enter your choice: 5
+
+Summary by activity:
+ Sessions  Total_Minutes  Avg_Minutes  Total_Calories  Avg_Cal_per_Min
+       18          714.0        39.67          3027.0             4.29
+        8          499.0        62.38          4067.0             8.24
+        9          413.0        45.89          4345.0            10.58
+       10          402.0        40.20          3441.0             8.60
+        7          338.0        48.29          2201.0             6.55
+        8          307.0        38.38          1421.0             4.49
+
+==============================================
+   PERSONAL FITNESS TRACKER DASHBOARD
+==============================================
+ 1. Log a new activity
+ 2. View all activities
+ 3. Fitness report (metrics)
+ 4. Filter activities
+ 5. Activity summary (group by type)
+ 6. Weekly trends
+ 7. Bar chart  - time per activity
+ 8. Line graph - calories over time
+ 9. Pie chart  - activity distribution
+10. Heatmap    - duration vs calories
+11. Show ALL charts
+12. Exit
+----------------------------------------------
+Enter your choice: 6
+
+Weekly trends:
+Week Ending  Duration (Minutes)  Calories Burned  Calories Change (%)
+ 2026-08-02               167.0           1144.0                  NaN
+ 2026-08-09               146.0           1100.0                -3.85
+ 2026-08-16               213.0           1186.0                 7.82
+ 2026-08-23               184.0            942.0               -20.57
+ 2026-08-30               337.0           2302.0               144.37
+ 2026-09-06               222.0           1420.0               -38.31
+ 2026-09-13                97.0            439.0               -69.08
+ 2026-09-20               148.0           1185.0               169.93
+ 2026-09-27               312.0           2003.0                69.03
+ 2026-10-04               227.0           1695.0               -15.38
+ 2026-10-11               251.0           2093.0                23.48
+ 2026-10-18                67.0            223.0               -89.35
+ 2026-10-25               229.0           1790.0               702.69
+ 2026-11-01                73.0            980.0               -45.25
+
+==============================================
+   PERSONAL FITNESS TRACKER DASHBOARD
+==============================================
+ 1. Log a new activity
+ 2. View all activities
+ 3. Fitness report (metrics)
+ 4. Filter activities
+ 5. Activity summary (group by type)
+ 6. Weekly trends
+ 7. Bar chart  - time per activity
+ 8. Line graph - calories over time
+ 9. Pie chart  - activity distribution
+10. Heatmap    - duration vs calories
+11. Show ALL charts
+12. Exit
+----------------------------------------------
+Enter your choice: 7
+[INFO] Chart saved: C:\Users\admin\OneDrive\Desktop\python_pr-9\charts\bar_chart_time_per_activity.png
+
+==============================================
+   PERSONAL FITNESS TRACKER DASHBOARD
+==============================================
+ 1. Log a new activity
+ 2. View all activities
+ 3. Fitness report (metrics)
+ 4. Filter activities
+ 5. Activity summary (group by type)
+ 6. Weekly trends
+ 7. Bar chart  - time per activity
+ 8. Line graph - calories over time
+ 9. Pie chart  - activity distribution
+10. Heatmap    - duration vs calories
+11. Show ALL charts
+12. Exit
+----------------------------------------------
+Enter your choice: 8
+[INFO] Chart saved: C:\Users\admin\OneDrive\Desktop\python_pr-9\charts\line_graph_calories_over_time.png
+
+==============================================
+   PERSONAL FITNESS TRACKER DASHBOARD
+==============================================
+ 1. Log a new activity
+ 2. View all activities
+ 3. Fitness report (metrics)
+ 4. Filter activities
+ 5. Activity summary (group by type)
+ 6. Weekly trends
+ 7. Bar chart  - time per activity
+ 8. Line graph - calories over time
+ 9. Pie chart  - activity distribution
+10. Heatmap    - duration vs calories
+11. Show ALL charts
+12. Exit
+----------------------------------------------
+Enter your choice: 9
+[INFO] Chart saved: C:\Users\admin\OneDrive\Desktop\python_pr-9\charts\pie_chart_activity_distribution.png
+
+==============================================
+   PERSONAL FITNESS TRACKER DASHBOARD
+==============================================
+ 1. Log a new activity
+ 2. View all activities
+ 3. Fitness report (metrics)
+ 4. Filter activities
+ 5. Activity summary (group by type)
+ 6. Weekly trends
+ 7. Bar chart  - time per activity
+ 8. Line graph - calories over time
+ 9. Pie chart  - activity distribution
+10. Heatmap    - duration vs calories
+11. Show ALL charts
+12. Exit
+----------------------------------------------
+Enter your choice: 10
+[INFO] Chart saved: C:\Users\admin\OneDrive\Desktop\python_pr-9\charts\heatmap_correlation.png
+
+==============================================
+   PERSONAL FITNESS TRACKER DASHBOARD
+==============================================
+ 1. Log a new activity
+ 2. View all activities
+ 3. Fitness report (metrics)
+ 4. Filter activities
+ 5. Activity summary (group by type)
+ 6. Weekly trends
+ 7. Bar chart  - time per activity
+ 8. Line graph - calories over time
+ 9. Pie chart  - activity distribution
+10. Heatmap    - duration vs calories
+11. Show ALL charts
+12. Exit
+----------------------------------------------
+Enter your choice: 11
+[INFO] Chart saved: C:\Users\admin\OneDrive\Desktop\python_pr-9\charts\bar_chart_time_per_activity.png
+[INFO] Chart saved: C:\Users\admin\OneDrive\Desktop\python_pr-9\charts\line_graph_calories_over_time.png
+[INFO] Chart saved: C:\Users\admin\OneDrive\Desktop\python_pr-9\charts\pie_chart_activity_distribution.png
+[INFO] Chart saved: C:\Users\admin\OneDrive\Desktop\python_pr-9\charts\heatmap_correlation.png
+
+==============================================
+   PERSONAL FITNESS TRACKER DASHBOARD
+==============================================
+ 1. Log a new activity
+ 2. View all activities
+ 3. Fitness report (metrics)
+ 4. Filter activities
+ 5. Activity summary (group by type)
+ 6. Weekly trends
+ 7. Bar chart  - time per activity
+ 8. Line graph - calories over time
+ 9. Pie chart  - activity distribution
+10. Heatmap    - duration vs calories
+11. Show ALL charts
+12. Exit
+----------------------------------------------
+Enter your choice: 12
+Goodbye! Stay fit!
